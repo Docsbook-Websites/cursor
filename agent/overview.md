@@ -35,6 +35,8 @@ You do not have to wait for the agent to finish before typing your next instruct
 
 Press `Enter` while it is working to add a message to the queue. Queued messages appear in order below the active task and run sequentially once the current one finishes. You can drag them to reorder.
 
+<video src="https://cursor.com/docs-static/images/agent/planning/agent-queue.mp4" controls muted loop playsinline width="100%"></video>
+
 Press `Cmd+Enter` to bypass the queue and send immediately. The message attaches to the most recent turn and is processed right away, which is what you want when the agent is heading somewhere wrong and you need to redirect it now.
 
 ## Related
