@@ -5,6 +5,8 @@ description: Learn how to use Cursor's agent, rules, MCP integrations, cloud age
 
 # Cursor Documentation
 
+![The Cursor agent working in a project: a task list of running agents on the left, the agent's reasoning and proposed file edits in the center, and a live preview of the result on the right](https://cursor.com/docs-static/images/agent/homepage-hero.png)
+
 Cursor is a coding agent built for work on real codebases. It reads your repository, proposes changes, runs the commands your project already uses, and hands you a diff to review.
 
 This site covers how the agent works, how to shape its behavior for your team, and how to run it outside the editor.
