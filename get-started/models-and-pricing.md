@@ -39,7 +39,39 @@ Teams and Enterprise plans add centrally managed [team rules](../customize/rules
 
 Regional data residency is available on eligible models and carries a pricing uplift. See Cursor's privacy and data governance documentation for supported regions and functions.
 
+## Common questions
+
+<!-- widget:accordion -->
+
+### Which pool does my request draw from?
+
+It depends on the model you select. Choosing one of the models Cursor hosts draws from the Cursor Models pool; selecting a specific third-party model draws from the Other Models pool at that model's API rate.
+
+### Why did my included usage run out faster this month?
+
+Almost always model selection. Because API costs differ by an order of magnitude between tiers, a month spent on a premium model consumes the same allowance far faster than a month on a hosted one. The usage dashboard breaks this down.
+
+### Does a bigger model always produce better code?
+
+No. On routine edits within a well-described codebase, the difference is often invisible while the cost is not. Premium models earn their price on genuinely hard problems: subtle debugging, unfamiliar architecture, or code you cannot easily verify yourself.
+
+### What do Teams and Enterprise plans add?
+
+Centrally managed [team rules](../customize/rules.md), shared MCP server distribution, administrative control over source control connections, and Cursor Router for automatic per-request model selection.
+
+<!-- /widget -->
+
 ## Related
 
 - [Quickstart](quickstart.md) — get running before you tune model choice
 - [Agent overview](../agent/overview.md) — how the model fits with tools and instructions
+
+<!-- widget:cta -->
+
+## Try it before you tune it
+
+Most teams settle on a model mix after a week of real use, not from a pricing table.
+
+[Download Cursor](https://cursor.com/download) · [See current pricing](https://cursor.com/pricing)
+
+<!-- /widget -->

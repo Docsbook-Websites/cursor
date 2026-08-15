@@ -9,35 +9,43 @@ Cursor is a coding agent built for work on real codebases. It reads your reposit
 
 This site covers how the agent works, how to shape its behavior for your team, and how to run it outside the editor.
 
+<!-- widget:cards -->
+
 ## Start here
 
-If you have not installed Cursor yet, begin with the [quickstart](get-started/quickstart.md). It takes you from install to a reviewed change in five steps.
-
-- [Quickstart](get-started/quickstart.md) — install, explore a repo, make your first change
-- [Models and pricing](get-started/models-and-pricing.md) — usage pools, model rates, and plans
+- [Quickstart](./get-started/quickstart.md) — Go from install to your first reviewed change in five steps {rocket}
+- [Models and pricing](./get-started/models-and-pricing.md) — Usage pools, model rates, and which plan fits {credit-card}
 
 ## Sections
 
-### [Agent](agent/overview.md)
+- [Agent](./agent/overview.md) — Instructions, tools, and the model that complete a task {bot}
+- [Customize](./customize/rules.md) — Rules, AGENTS.md, and MCP connections for your conventions {sliders-horizontal}
+- [Cloud Agents](./cloud-agents/overview.md) — Isolated cloud VMs that build, test, and verify {cloud}
+- [CLI](./cli/overview.md) — The same agent in your terminal, scriptable in CI {terminal}
+- [Integrations](./integrations/overview.md) — Slack, Linear, Jira, and source control providers {plug}
 
-How the agent combines instructions, tools, and a model to complete a task. Covers the [tool set](agent/tools.md), [checkpoints and recovery](agent/checkpoints.md), and [plan mode](agent/plan-mode.md) for larger work.
+<!-- /widget -->
 
-### [Customize](customize/rules.md)
+## Choosing where to start
 
-Make the agent follow your conventions. [Rules](customize/rules.md) give it persistent project context, [MCP](customize/mcp.md) connects it to your external systems, and [AGENTS.md](customize/agents-md.md) offers a plain-markdown alternative to rule files.
+If you have never used Cursor, the [quickstart](get-started/quickstart.md) is the shortest path to seeing the full loop once: ask, edit, review, verify.
 
-### [Cloud Agents](cloud-agents/overview.md)
+If you already use it daily and want better results, go to [rules](customize/rules.md). Persistent project context changes output quality more than any other single setting.
 
-Run agents in isolated cloud VMs instead of on your laptop. Covers [environment setup](cloud-agents/setup.md), the [ways to launch an agent](cloud-agents/access.md), and [multi-repo work](cloud-agents/multi-repo.md).
-
-### [CLI](cli/overview.md)
-
-Drive the agent from your terminal. Covers [installation and modes](cli/overview.md), [sessions](cli/sessions.md), and [non-interactive runs](cli/automation.md) for scripts and CI.
-
-### [Integrations](integrations/overview.md)
-
-Connect Cursor to the tools your team already uses, including [source control providers](integrations/source-control.md) and chat and issue trackers.
+If you are evaluating it for a team, read [cloud agents](cloud-agents/overview.md) and [source control](integrations/source-control.md) together — that pair determines what agents can actually verify before handing work back.
 
 ## About this site
 
 This documentation site was built on [Docsbook](https://docsbook.io) as a worked example of a structured, searchable docs site. It describes Cursor based on the official documentation at [cursor.com/docs](https://cursor.com/docs), which remains the authoritative source for product details.
+
+<!-- widget:cta -->
+
+**Start building**
+
+## Try Cursor on your own codebase
+
+Install it, point it at a repository you know, and ask it to explain the code before you change anything.
+
+[Download Cursor](https://cursor.com/download) · [Read the quickstart](./get-started/quickstart.md)
+
+<!-- /widget -->

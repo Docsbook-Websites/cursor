@@ -44,6 +44,10 @@ Three frontmatter fields interact to determine inclusion.
 | `false` | provided | — | Included when the agent judges it relevant |
 | `false` | — | — | Included only when you `@`-mention it |
 
+## Rule patterns
+
+<!-- widget:accordion -->
+
 ### Always applied
 
 For constraints that hold everywhere:
@@ -86,6 +90,21 @@ alwaysApply: false
 - Validate inputs at the service boundary
 - Return structured errors with `code` and `message`; never throw raw strings
 ```
+
+### Manual, via @-mention only
+
+For templates and checklists you pull in deliberately:
+
+```markdown
+---
+alwaysApply: false
+---
+- Every database migration must have both `up` and `down` functions
+- Never alter a column type in place: add a column, backfill, then drop
+  the old one in a separate migration
+```
+
+<!-- /widget -->
 
 ## Glob patterns
 

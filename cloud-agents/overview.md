@@ -27,8 +27,23 @@ An agent is limited by the environment it runs in. One that can write code but c
 
 Environment setup is the highest-leverage configuration step for cloud agents. See [setup](setup.md) for the three ways to define one.
 
-## Related
+## Explore this section
 
-- [Setup](setup.md) — define the environment agents run in
-- [Ways to launch](access.md) — desktop, web, mobile, chat, and API
-- [Multi-repo](multi-repo.md) — changes spanning several repositories
+<!-- widget:cards -->
+
+- [Setup](./setup.md) — Define the environment agents run in, and why it decides everything {settings}
+- [Ways to launch](./access.md) — Desktop, web, iOS, Slack, GitHub, Linear, and the API {smartphone}
+- [Multi-repo](./multi-repo.md) — Coordinated changes across separate repositories {git-fork}
+- [Source control](../integrations/source-control.md) — The connection cloud agents require {git-branch}
+
+<!-- /widget -->
+
+<!-- widget:cta -->
+
+## Run agents that can verify their own work
+
+A cloud agent with a real environment tests what it changed before handing it back.
+
+[Start a cloud agent](https://cursor.com/agents) · [Set up an environment](./setup.md)
+
+<!-- /widget -->
